@@ -3,37 +3,66 @@
 
 <head>
     <title>Python Data Science Handbook</title>
-    <link rel="shortcut icon" href="../assets/icon/books.ico" type="image/x-icon">
-    <!-- Books Icon by HJ Project on Iconscout -->
+    <!-- Book Icon by Triangle Squad on Iconscout -->
+    <link rel="shortcut icon" href="../assets/icon/Book.ico" type="image/x-icon">
+    <!-- Bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 
 <body>
     <header>
-        <a href="../index.html"> Home </a>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="../index.html"> <button type="button" class="btn btn-outline-info">Home</button></a></li>
+                </ul>
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#"><h4 class="display-4 text-center">Python Data Science Handbook</h4></a>
+              </div>
+            </div>
+        </nav>
     </header>
-    <h1>Python Data Science Handbook</h1>
-    <p>
-        Python Data Science Handbook<br>
-        Essential Tools for Working with Data<br>
-        By Jake VanderPlas | 2016<br>
-    </p>
-    <img src="../assets/book-logo/books-6.jfif" alt="Image not Found!">
-    <h2>About the Edition</h2>
-    <p>
-        <li>Author:Jake VanderPlas</li>
-        <li>ISBN:9781491912133, 1491912138</li>
-        <li>Language:English</li>
-        <li>Published:21 November 2016</li>
-        <li>Publisher:O'Reilly Media</li>
-    </p>
-    <h3>Description</h3>
-    <p>
-        For many researchers, Python is a first-class tool mainly because of its libraries for storing,<br>
-        manipulating, and gaining insight from data. Several resources exist for individual pieces of this data science
-        stack,<br>
-        but only with the Python Data Science Handbook do you get them all—IPython, NumPy, Pandas, Matplotlib,
-        Scikit-Learn, and other related tools.
-    </p>
+    
+    <div class="container">
+        <div class="row row-cols-3">
+            <div class="col">
+                <div class="card" style="width: 12rem;">
+                    <img src="../assets/book-logo/books-6.jfif" alt="Python Data Science Handbook">
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card" >
+                    <div class="card-body">
+                        <h5 class="card-title">About the Edition</h5>
+                        <p class="card-text">
+                            <li>Author: Jake VanderPlas</li>
+                            <li>ISBN: 9781491912133, 1491912138</li>
+                            <li>Language: English</li>
+                            <li>Published: 21 November 2016</li>
+                            <li>Publisher: O'Reilly Media</li>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" >
+                    <div class="card-body">
+                        <h5 class="card-title">Description</h5>
+                        <p class="card-text">
+                            For many researchers, Python is a first-class tool mainly because of its libraries for storing, 
+                            manipulating, and gaining insight from data. Several resources exist for individual pieces of this data science
+                            stack, 
+                            but only with the Python Data Science Handbook do you get them all—IPython, NumPy, Pandas, Matplotlib,
+                            Scikit-Learn, and other related tools.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </body>
 
 </html>
